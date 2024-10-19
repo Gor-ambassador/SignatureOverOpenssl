@@ -23,5 +23,5 @@ openssl rsa -pubout -in private.pem -out public.pem
 
 ### Подпись <filename>.sig создается в том же каталоге, где лежит подписываемый документ.
 
-Проверить подпись файла:
+## Проверить подпись файла:
 ./signature_tool -m verify -f ../impdoc -k ./public.pem
